@@ -10,7 +10,11 @@ public class Ranglar {
         ranglar.add("Oq");
         ranglar.add("Qora");
         ranglar.add("Binafsha");
+        // Birinchi elementni o'zgartirish
+        ranglar.set(0, "Pushti");
 
         System.out.println("Ranglar to'plami: " + ranglar);
+        // To'plamning o'lchamini ekranga chiqarish
+         System.out.println("To'plamning o'lchami: " + ranglar.size());
     }
 }
